@@ -16,14 +16,14 @@ body{
 }
 
 .empty-image {
-    display: none; /* Initially hidden, JS will show it */
-    margin: 0 auto; /* Center horizontally, no fixed vertical margins */
+    display: none; 
+    margin: 0 auto;
     max-width: 200px;
     width: 100%;
-    max-height: 100%; /* Allow it to use available space, up to container height */
-    object-fit: contain; /* Maintain aspect ratio within bounds */
+    max-height: 100%; 
+    object-fit: contain; 
     height: auto;
-    position: static; /* Ensure it's part of the flow for flex centering */
+    position: static; 
     z-index: 1;
 }
 
